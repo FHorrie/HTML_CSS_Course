@@ -1,0 +1,14 @@
+body {
+    margin: 10px;
+    background-color: #ddd;
+}
+
+p {
+    padding: 20px;
+    margin: 0px;
+}
+
+p {
+    margin: 20px;
+    padding: 0px;
+}

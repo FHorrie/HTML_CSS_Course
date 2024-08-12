@@ -1,0 +1,21 @@
+body {
+  background-color: #ddd;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: goldenrod;
+  /* transition: transform 0.5s cubic-bezier(.23, .59, .79, .41); */
+  /* transition: transform 0.5s linear 1s; */
+  transition: transform 0.5s, background 0.3s;
+}
+
+.box:hover {
+  transform: rotate(45deg);
+  background: dodgerblue;
+}

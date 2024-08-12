@@ -1,0 +1,50 @@
+body {
+  margin: 10px;
+  background-color: #ddd;
+}
+
+.container {
+  display: grid;
+  /* 3x2 */
+  /* grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(2, 100px); */
+  /* fr -> fraction, prefer over % */
+  grid-template: 100px auto 100px / 30fr 70fr;
+  grid-template-areas: 
+    "header   header" 
+    "sidebar  main" 
+    ".        footer";
+  border: 3px solid gray;
+  /* default items value: stretch */
+  /* justify-items: center;
+  align-items: center; */
+  /* justify-content: center;
+  align-content: center; */
+
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  gap: 10px;
+
+  height: 96vh;
+}
+
+.box {
+  /* width: 5rem;
+  height: 5rem; */
+  background-color: goldenrod;
+}
+
+.abox {
+  grid-area: header;
+  /* grid-column: 1 / span 2; */
+  /* grid-row: 2; */
+
+  /* (start / end) */
+  /* ()row / ()column */
+  /* unreadable lmao */
+  /* grid-area: 1 / 1 / 1 / 3; */
+}
+
+.dbox {
+  grid-area: footer;
+}

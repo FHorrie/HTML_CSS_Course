@@ -1,0 +1,27 @@
+body {
+  margin: 10px;
+  background-color: #ddd;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: goldenrod;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.tweet{
+  border: 3px solid gray;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  clear: left; /* Same as float type, can also be "both" */
+}
