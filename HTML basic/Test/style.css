@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  border-radius: 20%;
+  float: left;
+  margin-right: 10px;
+}
+
+.textblock {
+  margin-top: 10px;
+}
+
+.username {
+  font-weight: bold;
+}

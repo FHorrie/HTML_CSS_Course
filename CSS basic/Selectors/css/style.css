@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+}
+
+/*#products {
+}
+
+.product {
+}*/
+
+a[href^="https"] [href$=".com"] /*COMBO*/
+{
+  color: orange;
+  font-weight: bold;
+}
+
+/*a[target] {
+
+}
+
+a[href="https://google.com"] FULL REF
+{
+  color: orange;
+}
+
+a[href*="google"] CONTAINS
+{
+  color: orange;
+}
+
+a[href^="https"] START
+{
+  color: orange;
+}
+
+a[href$=".com"] END
+{
+  color: orange;
+}*/

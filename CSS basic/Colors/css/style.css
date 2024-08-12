@@ -1,0 +1,9 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #b140b121;
+}

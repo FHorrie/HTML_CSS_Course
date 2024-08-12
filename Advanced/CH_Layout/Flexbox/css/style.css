@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+  background-color: #ddd;
+}
+
+.container {
+  height: 90vh;
+  border: 3px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 15rem;
+  flex: 1 1 15rem;
+  width: 5rem;
+  height: 5rem;
+  background: goldenrod;
+  margin: 1rem;
+}
+
+.b-one {
+  flex-shrink: 0;
+  /* override align-items property */
+  /* align-self: flex-start; */
+}

@@ -1,0 +1,11 @@
+body{
+    margin: 10px;
+    background-color: #111;
+}
+p{
+    color: orange;
+}
+#important{
+    color:blue;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: dodgerblue;
+    border: dashed royalblue;
+    /*border-top: 20px solid royalblue; line hierarchy matters */
+    border-width: 10px 15px; /* trbl */
+    border-radius: 10%;
+}
