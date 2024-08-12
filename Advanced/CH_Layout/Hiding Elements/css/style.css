@@ -1,9 +1,0 @@
-body {
-  margin: 10px;
-  background-color: #ddd;
-}
-
-.first {
-  /* display: none; removes space too */
-  visibility: hidden; /* keeps space */
-}
